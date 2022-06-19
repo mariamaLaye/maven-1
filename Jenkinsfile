@@ -5,6 +5,6 @@ node{
   }
   stage('compile')
   {
-    sh 'mvn package'
+    bat '.\mvn compile'
   }
 }
