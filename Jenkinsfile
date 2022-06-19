@@ -1,7 +1,7 @@
 node{
   stage('checkout')
   {
-    git 'https://github.com/mariamaLaye/maven/new/master/'
+    git 'https://github.com/mariamaLaye/maven-1.git'
   }
   stage('compile')
   {
