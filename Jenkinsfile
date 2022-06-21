@@ -5,7 +5,6 @@ node{
   }
   stage('compile')
   {
-    set 
     bat "mvn compile"
   }
 }
