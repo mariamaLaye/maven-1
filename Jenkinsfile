@@ -8,7 +8,7 @@ pipeline {
     }
 
     stages {
-        stage('Build') {
+        stage('Clean') {
             steps {
                 // Get some code from a GitHub repository
                  git 'https://github.com/mariamaLaye/maven-1.git'
