@@ -19,6 +19,7 @@ pipeline {
         }
         stage('Compile') {
             steps {
+                 // To run Maven on a Windows agent, use
                  git 'https://github.com/mariamaLaye/maven-1.git'
                 
                 bat "mvn -Dmaven.test.failure.ignore=true compile package"
